@@ -25,7 +25,7 @@
       window.addEventListener('scroll', function () {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
-        if (!firstAdLoaded && scrollTop > 400) {
+        if (!firstAdLoaded && scrollTop > 200) {
           googletag.cmd.push(function () {
             googletag.display('ad-slot-1');
           });
